@@ -1,0 +1,27 @@
+Source; .c/.ctt/.s (assembly) 
+complilation: source to object files(.o)
+link: .o,.o,.o (to binary)
+
+bx lr 
+// branching to register lr and set appropriate instruction set and exchange
+how to get out of main function
+
+gdb
+//read object file
+
+.global
+//assembler directive
+similar to #include and #define which are preprocessor directives 
+
+.balign 4
+//the next data is 4 bytes
+//the next data is aligned on 4 byte boundry 
+//similar to int i=4;
+//def a variable
+
+.word
+//in arm means 4 bytes
+
+2 sections
+data section: variables
+text: code/logic
